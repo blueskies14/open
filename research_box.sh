@@ -8,6 +8,7 @@
 #///////////////////////////////////////////////////////////////////////////
 # upadate system
 sudo apt update && sudo apt upgrade -y && printf "\n\n	Upadated!\n\n"
+sudo apt install vim -y
 
 # Firewall setup
 sudo apt install ufw && sudo service ufw start && sudo systemctl enable ufw && sudo apt install fail2ban -y && sudo service fail2ban start && sudo systemctl enable fail2ban && printf "\n\n	Firewall set up!\n\n"
