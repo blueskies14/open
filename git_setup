@@ -1,5 +1,5 @@
 	# Generate new ssh key
-ssh-keygen -t ed25519 -C "blueskies14@protonmail.com"
+ssh-keygen -t ed25519 -C "email@email.com"
 
 	# Add SSH key to github
 	user -> settings -> copy and paste ssh key
@@ -8,4 +8,4 @@ ssh-keygen -t ed25519 -C "blueskies14@protonmail.com"
 ssh -T git@github.com
 
 	# Clone Bases
-git clone git@github.com:blueskies14/workspace
+git clone git@github.com:username/directory
